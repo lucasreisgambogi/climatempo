@@ -1,0 +1,64 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "ia clima",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "ClimateVeraoIntent",
+          "slots": [],
+          "samples": [
+            "me fale sobre o verão",
+            "quero saber o clima do verao",
+            "verao",
+            "Qual o clima do verão"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "ClimateOutonoIntent",
+          "slots": [],
+          "samples": [
+            "quero saber sobre o outono",
+            "clima do outono",
+            "outono"
+          ]
+        },
+        {
+          "name": "ClimateInvernoIntent",
+          "slots": [],
+          "samples": [
+            "me fale sobre o inverno",
+            "inverno",
+            "qual o clima do inverno"
+          ]
+        },
+        {
+          "name": "ClimatePrimaveraIntent",
+          "slots": [],
+          "samples": [
+            "me fale sobre a primavera",
+            "quando é a primavera",
+            "primavera"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "7"
+}
